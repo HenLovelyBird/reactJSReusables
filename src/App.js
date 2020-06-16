@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Location from './helpers/location'
+
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
         >
           Learn React
         </a>
+        <Location />
       </header>
     </div>
   );
 }
+
 
 export default App;
